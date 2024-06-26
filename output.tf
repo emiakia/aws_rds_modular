@@ -21,7 +21,7 @@ output "db_instance_username" {
 output "db_instance_password" {
   description = "The password for the DB instance"
   value       = module.db_instance.db_instance_password
-  sensitive   = true  # Mark this output as sensitive to hide it by default
+  sensitive   = true # Mark this output as sensitive to hide it by default
 }
 
 output "security_group_id" {
